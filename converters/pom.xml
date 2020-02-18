@@ -7,11 +7,7 @@
 		<artifactId>mb2g-mm-maven-aev</artifactId>
 		<version>${revision}</version>
 	</parent>
-	<artifactId>converters</artifactId>
-
-	<properties>
-		<mapstruct.version>1.2.0.Final</mapstruct.version>
-	</properties>
+	<artifactId>converters</artifactId>	
 
 	<dependencies>
 		<dependency>
@@ -26,8 +22,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.mapstruct</groupId>
-			<artifactId>mapstruct</artifactId>
-			<version>${mapstruct.version}</version>
+			<artifactId>mapstruct</artifactId>			
 		</dependency>
 	</dependencies>
 

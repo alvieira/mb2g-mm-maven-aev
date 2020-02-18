@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>guru.springframework</groupId>
 		<artifactId>mb2g-mm-maven-aev</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>${revision}</version>
 	</parent>
 	<artifactId>web-app</artifactId>
 
@@ -13,17 +13,17 @@
 		<dependency>
 			<groupId>guru.springframework</groupId>
 			<artifactId>jpa-entities</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>guru.springframework</groupId>
 			<artifactId>web-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>guru.springframework</groupId>
 			<artifactId>converters</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 </project>
